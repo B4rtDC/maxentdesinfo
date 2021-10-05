@@ -1,5 +1,5 @@
 #
-#  Script to identify external interactions for a given dataset
+#  functions to identify external interactions for a given dataset
 # 
 #
 #   Steps:
@@ -154,13 +154,4 @@ def harvestfiles(datafolder):
     return
 
 
-
-
-# harvesting the external files for Twitter information operations dataset
-datapath = './demo'
-harvestfiles(datapath)
-
-# harvesting the tweets for Plandemic dataset
-datapath = '/Users/bart/Documents/Stack/PhD/Coding (experiments)/maxentdesinfo/demo/dataset_A/externaltweets.csv_replies'#./demo/dataset_A/externaltweets.csv_replies.csv'
-harvest_external_data(datapath)
 
